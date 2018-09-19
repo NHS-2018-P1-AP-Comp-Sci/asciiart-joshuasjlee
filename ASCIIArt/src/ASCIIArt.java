@@ -15,7 +15,75 @@
  */
 
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void main (String[] args) {
+		System.out.print("\t  This is my\n");
+		System.out.print("\t  skyscraper.\n");
+		System.out.println("");
+		topCeiling();
+		blankFloor();
+		fullLines();
+		fullLines();
+		fullLines();
+		windowPanes();
+		dashedLines();
+		fullLines();
+		fullLines();
+		windowPanes();
+		windowPanes();
+		windowPanes();
+		dashedLines();
+		blankFloor();
+		fullLines();
+		windowPanes();
+		windowPanes();
+		dashedLines();
+		fullLines();
+		windowPanes();
+		dashedLines();
+		fullLines();
+		windowPanes();
+		windowPanes();
+		dashedLines();
+		blankFloor();
+		fullLines();
+		windowPanes();
+		dashedLines();
+		blankFloor();
+		fullLines();
+		windowPanes();
+		windowPanes();
+		windowPanes();
+		dashedLines();
+		fullLines();
+		fullLines();
+		System.out.println("  /                         \\");
+		System.out.println(" /                           \\");
+		System.out.println("|                             |");
+		System.out.println("|_____________________________|");
+	}
+
+	public static void windowPanes() {
+		System.out.println("   |+|+|+|+|+|+|+|+|+|+|+|+|");
+	}
+	
+	public static void dashedLines () {
+		System.out.println("   |-----------------------|");
+	}
+	
+	public static void fullLines() {
+		System.out.println("   |_______________________|");
+	}
+	
+	public static void blankFloor () {
+		System.out.println("   |                       |");
+	}
+	
+	public static void topCeiling() {
+		System.out.println("        _______________");
+		System.out.println("       /               \\");
+		System.out.println("      /                 \\");
+		System.out.println("     /                   \\");
+		System.out.println("    /                     \\");
 	}
 }
+    
